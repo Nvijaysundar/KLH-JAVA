@@ -1,0 +1,71 @@
+You are working on a restaurant management system for a popular eatery that serves a variety of dishes. The management has specific requirements for the system:
+
+Inventory Management:
+
+The management wants to add new dishes to the menu along with their prices. Design a function to facilitate this process, allowing them to input the dish name and its corresponding price.
+The system should display the menu, showing all available dishes and their prices. Design a function to fulfill this requirement.
+
+Customer Management:
+
+Customers should be able to order items from the menu. Implement a function that allows customers to input the dish they want to order. The system should validate the input and add the selected items to the order.
+The system should also calculate the total bill for the customer based on the ordered items. Implement a function that generates the bill, displaying the ordered items and the total amount.
+
+User Interface:
+
+Develop an interactive user interface for the program. Allow the user to choose between inventory management and customer management. The program should continuously prompt the user until they decide to exit.
+Within each management section, provide a menu with options for different actions. For example, in inventory management, options could include adding a new dish, displaying the menu, estimating the bill, and exiting.
+
+Error Handling:
+
+Implement robust error handling throughout the program. For instance, if a user tries to order a dish that is not on the menu, the system should provide a clear error message.
+
+Program Flow:
+
+The program should flow seamlessly between inventory management and customer management. Once the user finishes a task in one section, they should be able to switch to the other or exit the program.
+
+Graceful Exit:
+
+Implement a graceful exit mechanism. When the user decides to exit the program, provide a farewell message and ensure that the program terminates without any issues.
+
+Test Cases:
+
+Adding New Dish:
+
+Input: "Pizza" (dish name), 12.99 (price)
+Expected Output: The system should confirm the addition of the new dish to the inventory.
+Displaying Menu:
+
+Input: Choosing the option to display the menu
+Expected Output: The system should print a list of all available dishes with their respective prices.
+Ordering Items:
+
+Input: "Burger," "Pasta," "STOP" (to finish the order)
+Expected Output: The system should add the selected items to the order. If any item is not available, it should provide an appropriate error message.
+Calculating Total Bill:
+
+Input: Choosing the option to generate the bill after ordering items
+Expected Output: The system should display the ordered items with their prices and the total bill.
+Invalid Dish Name:
+
+Input: Ordering a dish that is not on the menu
+Expected Output: The system should display an error message indicating that the item is not found.
+Switching Between Inventory and Customer Management:
+
+Input: Choosing to switch between inventory and customer management
+Expected Output: The program should smoothly transition between the two sections without any issues.
+Exiting the Program:
+
+Input: Choosing the option to exit the program
+Expected Output: The system should display a farewell message and terminate the program.
+Error Handling - Invalid Input:
+
+Input: Entering a non-numeric value when prompted for the price of a new dish
+Expected Output: The system should display an error message and prompt the user to enter a valid numeric value.
+Error Handling - Case Insensitivity:
+
+Input: Ordering items with a mix of uppercase and lowercase letters
+Expected Output: The system should treat dish names case-insensitively, adding items to the order correctly.
+Testing Graceful Exit:
+
+Input: Choosing to exit the program from both inventory and customer management sections
+Expected Output: The program should display a farewell message and terminate without errors.
