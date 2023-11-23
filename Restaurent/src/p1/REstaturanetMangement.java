@@ -27,7 +27,7 @@ public class REstaturanetMangement {
 						break;
 					case 3:
 						System.out.println("Estimated Cost"+invert.calculateBill(sc));
-						System.out.println("---------------------");
+						System.out.println("---------------------	");
 						break;
 					case 4:
 						sc.close();

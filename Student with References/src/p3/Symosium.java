@@ -1,7 +1,6 @@
 package p3;
 
 import java.util.Scanner;
-
 import p1.Student;
 import p1.Option;
 public class Symosium {
