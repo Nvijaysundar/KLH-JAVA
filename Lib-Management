@@ -1,0 +1,23 @@
+ Imagine you are designing a system for a library that needs to manage its collection of books. Each book has a unique identification number, a title, an author, and a genre. The library wants to implement a system that allows them to efficiently handle book transactions, such as checking out books, returning books, and keeping track of books in different genres.
+
+Design a solution using Java's Collection framework that involves the use of LinkedList for maintaining a list of books, a Queue for handling book transactions in a first-come-first-served manner, and a Set for efficiently categorizing books by genre.
+
+Here are the specific tasks to address:
+
+Create a class named Book with attributes for the book's ID, title, author, and genre.
+
+Implement a LibrarySystem class that includes:
+
+A LinkedList to store the list of all books in the library.
+A Queue to manage book transactions, such as checking out and returning books.
+A Set for each genre, containing references to books of that genre.
+Provide methods in the LibrarySystem class to:
+
+Add a new book to the library.
+Remove a book from the library (e.g., when it is checked out).
+Enqueue a book transaction (e.g., when a user wants to check out a book).
+Dequeue a book transaction (e.g., when a user completes the check-out process).
+Categorize books by adding them to the respective genre sets.
+Demonstrate how your system works by simulating a few book transactions, including adding books to the library, checking out books, and returning books.
+
+Ensure that your implementation is efficient and follows best practices for using the LinkedList, Queue, and Set interfaces in the Java Collection framework.
