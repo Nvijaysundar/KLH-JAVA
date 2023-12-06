@@ -44,6 +44,8 @@ public class Student implements Comparable<Student>{
 	}
 	@Override
 	public int compareTo(Student o) {
-		return this.roll.compareToIgnoreCase(o.roll);
+		
+		return Float.compare(this.marks, o.marks);
 	}
+	
 }
