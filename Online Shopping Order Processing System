@@ -1,0 +1,27 @@
+Online Shopping Order Processing System
+
+In an online shopping order processing system, various data structures like Set, Queue, Map, and List are used to efficiently manage and process customer orders. Let's explore how these data structures can be applied in this scenario:
+
+List (Shopping Cart):
+
+When a customer adds items to their shopping cart, a list is used to store the details of each item, such as product ID, quantity, and price.
+As the customer continues to shop, the list is dynamically updated to reflect the current state of their shopping cart.
+Set (Unique Products):
+
+A set is employed to maintain a collection of unique product IDs to ensure that the same product is not added to the cart multiple times.
+This prevents duplicate entries in the shopping cart, ensuring that customers can only add one instance of each product.
+Queue (Order Processing):
+
+Once the customer decides to check out, their order details are added to a queue for processing.
+The queue follows the First-In-First-Out (FIFO) principle, ensuring that orders are processed in the order they were received.
+This helps in managing order processing efficiently and ensures fairness in fulfilling customer requests.
+Map (Inventory Management):
+
+A map is used to represent the inventory, with product IDs as keys and corresponding stock levels as values.
+When an order is placed, the system updates the inventory map to reflect the reduced stock for each purchased product.
+This ensures real-time tracking of product availability and prevents overselling.
+List (Order History):
+
+Completed orders are stored in a list to maintain a record of customer order history.
+Each entry in the list contains details such as order ID, customer information, items purchased, and total cost.
+This allows for easy retrieval of order information and provides a basis for customer support and analytics.
