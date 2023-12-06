@@ -1,0 +1,31 @@
+Social Media User Activity Tracker
+
+You are tasked with developing a Java program to create a user activity tracker for a new social media platform. This platform aims to efficiently capture and analyze user activities, provide insights into popular posts, and identify active users.
+
+User Class:
+
+Design a User class that represents social media users. Each user should have a unique user ID and a username.
+Activity Class:
+
+Create an Activity class to model various user activities such as posts, likes, and comments. Each activity should be uniquely identified, have a type (e.g., "post," "like," "comment"), and include a timestamp.
+SocialMediaTracker Class:
+
+Develop a SocialMediaTracker class to manage user information and activities efficiently.
+Utilize a Map<Integer, Set<Activity>> to store user activities. The user ID serves as the key, and the associated value is a set of activities.
+Use a data structure (either LinkedList or Queue) to maintain the order of activities for each user.
+Functionalities:
+
+Implement the following functionalities within the SocialMediaTracker class:
+Add User:
+Provide a method to add a new user to the platform. Ensure that each user is assigned a unique user ID.
+Record Activity:
+Create a method to record user activities. Users can perform actions like posting, liking, or commenting. Each activity should be linked to a user and timestamped.
+Display User Activity:
+Design a method to display recent activities for a specified user. Identify the user by their user ID.
+Display Popular Posts:
+Develop a method to display the most popular posts based on the number of likes.
+Display Active Users:
+Create a method to present a list of active users based on recent activity.
+Execution Loop:
+
+Implement a loop allowing users to interact with the system, perform multiple operations, and exit when desired.
