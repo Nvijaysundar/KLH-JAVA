@@ -25,3 +25,34 @@ List (Order History):
 Completed orders are stored in a list to maintain a record of customer order history.
 Each entry in the list contains details such as order ID, customer information, items purchased, and total cost.
 This allows for easy retrieval of order information and provides a basis for customer support and analytics.
+
+
+input data for each action:
+
+Add item to cart:
+
+Enter product ID, quantity, and price: 101 2 25.99
+Add item to cart:
+
+Enter product ID, quantity, and price: 102 1 39.99
+Checkout:
+
+Type 2 and press Enter
+Add item to cart (trying to add a duplicate item):
+
+Enter product ID, quantity, and price: 101 1 25.99
+Checkout:
+
+Type 2 and press Enter
+Add item to cart:
+
+Enter product ID, quantity, and price: 103 3 15.99
+Checkout:
+
+Type 2 and press Enter
+Display order history:
+
+Type 3 and press Enter
+Exit:
+
+Type 4 and press Enter
